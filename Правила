@@ -1,0 +1,16 @@
+установить http://git-scm.com/downloads
+
+добавить локально папку с удаленки
+git clone https://github.com/%user_login%/%repo_name%.git
+
+зайти в папку и настраиваем её
+git config user.name ivan.ivanov
+git config user.email ivanov@example.com
+
+коментирование(обязательно)
+git add файл(измененный)
+git commit -m сообщение(сообщение комент к файлу)
+
+загрузка на сервер
+git push origin master (указать логин и пасс от ака)
+
