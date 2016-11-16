@@ -9,7 +9,7 @@ git config user.email ivanov@example.com
 
 коментирование(обязательно)
 git add файл(измененный)
-git commit -m сообщение(сообщение комент к файлу)
+git commit -m "%commit_message%"(сообщение комент к файлу)
 
 загрузка на сервер
 git push origin master (указать логин и пасс от ака)
